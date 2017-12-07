@@ -1,3 +1,69 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.box {
+	background-color: #e5e7ea;
+	height: 300px;
+	width: 250px;
+	border-radius: 10px;
+	position: relative;
+	top: 80px;
+	left: 40%;
+}
+
+.box {
+	background-color: #bfc4ce;
+	width: 220px;
+	position: relative;
+	top: 20px;
+	left: 15px;
+	height: 40px;
+}
+.display input {
+	background-color: #bccd95;
+	height: 30px;
+	width: 210px;
+	font-size: 21px;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	text-align: right;
+	color: black;
+}
+.keys {
+	position: relative;
+	top: 15px;
+}
+.button {
+	border-top: 2px solid transparent;
+	height: 30px;
+	width: 40px;
+	border: none;
+	border-radius: 8px;
+	position: relative;
+	cursor: pointer;
+}
+.button.function {
+	color: white;
+	background-color: #c64f81;
+	border-bottom: black 2px solid;
+	border-top: 2px #6f6f6f solid;
+}
+.button.operator {
+	color: white;
+	background-color: #709lab;
+	border-bottom: black 2px #6f6f6f solid;
+	border-top: 2px #6f6f6f solid;
+}
+.function:active {
+	border-top: black 2px solid;
+	border-bottom: 2px #6f6f6f solid;
+}
+.operator:active {
+	border-top: black 2px solid;
+	border-bottom: #303030 2px solid;
+}
+.number:active {
+	border-top: black 2 px solid;
+	border-bottom: 2px #6f6f6f solid;
+}
