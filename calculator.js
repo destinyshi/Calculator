@@ -5,7 +5,7 @@ function d(val) {
 function v(val) {
 	document.getElementById("d").value += val;
 }
-function e () {
+function e() {
 	try{
 		d(eval(document.getElementById("d").value));
 	}
