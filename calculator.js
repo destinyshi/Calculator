@@ -7,4 +7,9 @@ function v(val) {
 }
 function e () {
 	try{
-		d(eval(document.getElementById("d")
+		d(eval(document.getElementById("d").value));
+	}
+	catch(err) {
+		d("Error");
+	}
+}
