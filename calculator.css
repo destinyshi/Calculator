@@ -11,7 +11,7 @@
 	left: 40%;
 }
 
-.box {
+.display {
 	background-color: #bfc4ce;
 	width: 220px;
 	position: relative;
@@ -53,6 +53,12 @@
 	color: white;
 	background-color: #709lab;
 	border-bottom: black 2px #6f6f6f solid;
+	border-top: 2px #6f6f6f solid;
+}
+.button.number {
+	color:white;
+	background-collor: #7091ab;
+	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .function:active {
