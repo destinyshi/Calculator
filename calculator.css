@@ -51,13 +51,13 @@
 }
 .button.operator {
 	color: white;
-	background-color: #709lab;
+	background-color: #4d5966;
 	border-bottom: black 2px #6f6f6f solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.number {
-	color:white;
-	background-collor: #7091ab;
+	color: white;
+	background-color: #7091ab;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
