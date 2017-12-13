@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-
-
+body {
+background-image: url("images/chicken.jpg");
+}
 
 .box {
 	background-color: #e5e7ea;
@@ -11,6 +12,7 @@
 	position: relative;
 	top: 80px;
 	left: 40%;
+	
 }
 
 .display {
@@ -45,24 +47,28 @@
 	position: relative;
 	cursor: pointer;
 	margin-left: 17px;
+	
 }
 .button.function {
 	color: white;
 	background-color: #c64f81;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
+	background-image: url("images/Egg2.png");
 }
 .button.operator {
-	color: white;
+	color: black;
 	background-color: #4d5966;
 	border-bottom: black 2px #6f6f6f solid;
 	border-top: 2px #6f6f6f solid;
+	background-image: url("images/Egg3.png");
 }
 .button.number {
 	color: white;
 	background-color: #7091ab;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
+	background-image: url("images/Egg1.png");
 }
 .function:active {
 	border-top: black 2px solid;
