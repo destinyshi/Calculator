@@ -42,6 +42,7 @@
 	border-radius: 8px;
 	position: relative;
 	cursor: pointer;
+	margin-left: 17px;
 }
 .button.function {
 	color: white;
