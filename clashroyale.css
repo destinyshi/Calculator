@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-background-image: url("images/chicken.jpg");
+background-image: url("images/clash.jpg");
 }
 
 .box {
@@ -50,25 +50,25 @@ background-image: url("images/chicken.jpg");
 	
 }
 .button.function {
-	color: white;
+	color: black;
 	background-color: #c64f81;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
-	background-image: url("images/Egg2.png");
+	background-image: url("images/baby.png");
 }
 .button.operator {
 	color: black;
 	background-color: #4d5966;
 	border-bottom: black 2px #6f6f6f solid;
 	border-top: 2px #6f6f6f solid;
-	background-image: url("images/Egg3.png");
+	background-image: url("images/ice.png");
 }
 .button.number {
-	color: white;
+	color: black;
 	background-color: #7091ab;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
-	background-image: url("images/Egg1.png");
+	background-image: url("images/bone.png");
 }
 .function:active {
 	border-top: black 2px solid;
